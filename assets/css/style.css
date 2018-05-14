@@ -46,10 +46,16 @@ body {
  p{
      font-family: 'Russo One', sans-serif;
      color: red;
-     font-size: 30px;
+     font-size: 25px;
 
  }
 
- .border {
-     
+ .border1 {
+
+    border: 10px;
+    border-color: black;
+    border-style: dotted;
+    height: auto;
+
+
  }

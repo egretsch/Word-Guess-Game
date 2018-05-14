@@ -5,34 +5,27 @@ body {
     background-color: aqua;
 }
 #h1 {
-    font-size: 500%;
+    font-size: 1000%;
     text-align: center;
     color: red;
-    
     -webkit-animation-name: header; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
     animation-name: header;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     font-family: 'Titillium Web', sans-serif;
-    
-
 }
 
-/* Safari 4.0 - 8.0 */
 @-webkit-keyframes header {
     from {color: red;}
     to {color: yellow;}
 }
-
-/* Standard syntax */
 @keyframes header {
     from {color: red;}
     to {color: purple;}
 }
-
 .h2 {
-    font-size: 250%;
+    font-size: 500%;
     text-align: center;
     color: yellow;
     margin: auto;
@@ -41,21 +34,15 @@ body {
     -ms-transform: rotate(+15deg);
     -o-transform: rotate(+15deg);
     font-family: 'Dancing Script', cursive;
-
 }
  p{
      font-family: 'Russo One', sans-serif;
      color: red;
      font-size: 25px;
-
  }
-
  .border1 {
-
     border: 10px;
     border-color: black;
     border-style: dotted;
     height: auto;
-
-
  }

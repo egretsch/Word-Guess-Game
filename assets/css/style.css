@@ -1,3 +1,6 @@
+.header {
+    margin: 1% 0% 8% 0%;
+}
 body {
     background-color: aqua;
 }
@@ -5,12 +8,15 @@ body {
     font-size: 500%;
     text-align: center;
     color: red;
-    margin: auto;
+    
     -webkit-animation-name: header; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
     animation-name: header;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    font-family: 'Titillium Web', sans-serif;
+    
+
 }
 
 /* Safari 4.0 - 8.0 */
@@ -24,3 +30,26 @@ body {
     from {color: red;}
     to {color: purple;}
 }
+
+.h2 {
+    font-size: 250%;
+    text-align: center;
+    color: yellow;
+    margin: auto;
+    -webkit-transform: rotate(+15deg);
+    -moz-transform: rotate(+15deg);
+    -ms-transform: rotate(+15deg);
+    -o-transform: rotate(+15deg);
+    font-family: 'Dancing Script', cursive;
+
+}
+ p{
+     font-family: 'Russo One', sans-serif;
+     color: red;
+     font-size: 30px;
+
+ }
+
+ .border {
+     
+ }

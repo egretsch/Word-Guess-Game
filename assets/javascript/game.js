@@ -31,7 +31,7 @@ function Hangman() {
         'Guts',
         'Kenshiro'
     ]
-    this.word = this.wordlist[Math.floor(Math.random() * this.wordlist.langth)]:
+    this.word = this.wordlist[math.floor(math.random() * this.wordlist.langth)];
     this.guessedLetters = [];
     this.ganeOver = false;
     this.alertsLines = emptyAlerts;

@@ -22,26 +22,43 @@
     <h1 id="h1">!!Hangman!!</h1>
     <h1 class="h2">Super Hero Edition</h1>
     </div>
+    
     <div class="container mx-auto">
         <div class="row">
             <div class="col-sm-2 col-md-2">
             </div>
-            <div class="col-sm-4 col-md-4 border1">
+            <!-- <div class="col-sm-4 col-md-4 border1">
                 <p class="text-center">Hint:</p>
-            </div>
-            <div class="col-sm-4 col-md-4 border1">
+            </div> -->
+            <div class="col-sm-8 col-md-8 border1">
                 <p class="text-center">Press Any Key To Get Started!</p>
                 
                 <p class="text-center">Wins!!</p>
-                <p class="text-center">Current Word</p>
+                    <div>
+                        <p id="win-count" class="text-center"></p>
+                    </div>
+                <p class="text-center">Losses!!</p>
+                    <div>
+                        <p id="loss-count"  class="text-center"></p>
+                    </div>
+                <p class="text-center" >Current Word</p>
+                    <div >
+                        <p id="word-display-letters"class="text-center"></p>
+                    </div>
                 <p class="text-center">Number Of Guesses Remaning</p>
+                    <div>
+                        <p id="error-count" class="text-center"></p>
+                    </div>
                 <p class="text-center">Letters Already Guessed</p>
-                <element onkeypress="myScript"></element>
+                    <div>
+                        <p id="guessed-letters" class="text-center"></p>
+                    </div>
+            </div>        
             <div class="col-sm-2 col-md-2">
             </div>
+            
         </div>
     </div>
-
     
 
 
